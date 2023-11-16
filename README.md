@@ -2,7 +2,10 @@
 # Sign Token using cookie
 ## Client site --
 **I am using Axios to make POST requests to my server for handling JWT for (/jwt) and logout (/logout).**
-
+# terminal:
+```
+require('crypto').randomBytes(64).toString('hex')
+```
 **When a user `login`.**
 ```JS 
     axios
